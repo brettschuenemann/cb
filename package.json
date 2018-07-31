@@ -22,9 +22,11 @@
     "e2e-test": "samples test deploy"
   },
   "dependencies": {
+    "crunchbase-api": "^0.2.1",
     "express": "4.15.4",
     "node-zendesk": "^1.2.1",
-    "pw-app-sdk": "^0.1.2"
+    "pw-app-sdk": "^0.1.2",
+    "request": "^2.87.0"
   },
   "devDependencies": {
     "@google-cloud/nodejs-repo-tools": "1.4.17"
